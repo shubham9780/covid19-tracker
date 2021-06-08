@@ -11,3 +11,157 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .header
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: blue;
+} */
+
+/* .login
+{
+  box-sizing: border-box;
+  padding-top:15px;
+	padding-bottom:5%;
+  margin:5% auto;
+  text-align:center;
+  border:.5px solid #fff;
+  background:#4facff;
+  border-radius:5px;
+  box-shadow:0px 0px 10px #000;
+  margin:50px auto;
+  max-width:400px;
+} */
+
+/* .login-header
+{
+  color:#fff;
+  text-align:center;
+  
+} */
+
+/* .login input[type="text"],
+.login input[type="email"],
+.login input[type="password"] {
+  max-width:400px;
+	width: 80%;
+  line-height:3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:1em 2em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+} */
+
+/* label
+{
+  font-weight: bolder;
+  font-size: medium;
+  margin-left:0 auto;
+} */
+
+/* .button {
+  height:30px;
+  width:100px;
+  background:blue;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: white;
+  text-transform:uppercase;
+  
+  cursor:pointer;
+  font-weight: bolder;
+} */
+
+.heading
+{
+  margin-left:20px;
+  margin-top: 20px;
+}
+
+form
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row,.container,select
+{
+  margin-top: 20px;
+}
+
+.box {
+  margin: 1em;
+  padding: 1.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.box.confirmed {
+  background: #ffce63;
+}
+.box.recovered {
+  background: #a2ff55;
+}
+.box.deaths {
+  background: #e96952;
+}
+.box .value {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.footer
+{
+  background-color: rgb(14, 14, 29);
+  width: 100%;
+  bottom: 0;
+}
+
+.infor
+{
+    background-color: rgb(166, 143, 250);
+    font-size: large;
+    font-weight: 400;
+    justify-content: center;
+    border-radius: 10PX;
+}
+
+
+.card1
+{
+    transition: transform 1s;
+    text-align: left;
+}
+.card1:hover
+    {
+        transform: translate(-10px);;
+    }
+
+    .info1
+    {
+        padding:1rem;
+        text-align: left;
+    }
+
+main .card1:nth-child(odd)
+{
+    background: #eee;
+}
+
+main .card1:nth-child(even)
+{
+    background: rgb(165, 159, 159);
+}
+
